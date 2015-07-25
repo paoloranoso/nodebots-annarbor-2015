@@ -22,23 +22,23 @@ board.on("ready", function () {
             wheels.right.center();
         },
         forward: function () {
-            wheels.left.ccw();
-            wheels.right.cw();
+            wheels.left.ccw(0.1);
+            wheels.right.cw(0.1);
             console.log("goForward");
         },
         pivotLeft: function () {
-            wheels.left.cw();
-            wheels.right.cw();
+            wheels.left.cw(0.1);
+            wheels.right.cw(0.1);
             console.log("turnLeft");
         },
         pivotRight: function () {
-            wheels.left.ccw();
-            wheels.right.ccw();
+            wheels.left.ccw(0.1);
+            wheels.right.ccw(0.1);
             console.log("turnRight");
         },
         back: function () {
-            wheels.left.cw();
-            wheels.right.ccw();
+            wheels.left.cw(0.1);
+            wheels.right.ccw(0.1);
         }
     };
     
