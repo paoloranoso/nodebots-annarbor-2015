@@ -1,0 +1,24 @@
+{
+  "name": "nodebots-annarbor-2015",
+  "version": "1.0.0",
+  "description": "Hackathon project for International Nodebots Day Ann Arbor, July 25, 2015",
+  "main": "bots.js",
+  "dependencies": {
+    "johnny-five": "^0.8.85"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bots.js",
+    "start": "node bots.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paoloranoso/nodebots-annarbor-2015.git"
+  },
+  "author": "Paolo Ranoso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paoloranoso/nodebots-annarbor-2015/issues"
+  },
+  "homepage": "https://github.com/paoloranoso/nodebots-annarbor-2015#readme"
+}
